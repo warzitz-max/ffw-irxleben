@@ -1,0 +1,17 @@
+{
+  "name": "Feuerwehr Hohe Börde - Irxleben Fahrzeugprüfung",
+  "short_name": "Fahrzeugprüfung",
+  "description": "Offline-fähige PWA für die Fahrzeugprüfung der Freiwilligen Feuerwehr Hohe Börde - Irxleben.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f5f3f1",
+  "theme_color": "#B31E1E",
+  "icons": [
+    {
+      "src": "icons/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
