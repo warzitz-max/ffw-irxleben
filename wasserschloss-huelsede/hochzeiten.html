@@ -1,0 +1,54 @@
+<!doctype html><html lang="de"><head><title>Hochzeiten – Wasserschloss Residenz Hülsede</title><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#190B1E"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css">
+<style>
+body{background:var(--ivory)}
+.bar{color:var(--aub)} .bar.solid{background:rgba(246,240,228,.88);color:var(--aub)} .brand small{color:var(--vio)}
+.nav a:hover,.nav a[aria-current]{border-color:var(--vio)} .burger{border-color:var(--aub)}
+@media(max-width:760px){.nav{background:var(--ivory);color:var(--aub)}}
+.open{min-height:100svh;display:grid;place-items:center;text-align:center;padding:120px var(--pad) 80px;position:relative;overflow:hidden}
+.open::before{content:"";position:absolute;width:min(90vw,820px);aspect-ratio:1;border-radius:50%;background:radial-gradient(circle,rgba(185,162,217,.55),rgba(215,196,163,.35) 45%,transparent 70%);filter:blur(10px);animation:breathe 9s ease-in-out infinite alternate}
+@keyframes breathe{to{transform:scale(1.12)}}
+.open h1{position:relative;font-size:clamp(5rem,26vw,22rem);font-style:italic;font-weight:300;line-height:.8;color:var(--aub)}
+.open p{position:relative;font-family:var(--serif);font-size:clamp(1.4rem,3vw,2.3rem);font-style:italic;margin-top:30px;color:var(--vio)}
+.open .sub{font-family:var(--sans);font-style:normal;font-size:1rem;max-width:44ch;margin:18px auto 34px;color:#4a3a50}
+.chap{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(24px,6vw,100px);max-width:1480px;margin:auto;padding:0 var(--pad)}
+.chap aside{position:sticky;top:0;height:100svh;display:flex;flex-direction:column;justify-content:center}
+.chap aside h2{font-size:clamp(2.6rem,5vw,5rem);font-style:italic}
+.chap aside p{margin-top:20px;max-width:34ch;color:#4a3a50}
+.chap ol{list-style:none;padding:12vh 0}
+.chap li{margin-bottom:22vh}
+.chap li .art{aspect-ratio:4/5;border-radius:6px 6px 240px 240px}
+.chap li:nth-child(even) .art{aspect-ratio:1;border-radius:240px 6px 6px 6px;margin-left:12%}
+.chap h3{font-size:clamp(2rem,3.4vw,3rem);margin:22px 0 8px;font-style:italic}
+.chap li p{max-width:42ch;color:#4a3a50}
+@media(max-width:820px){.chap{grid-template-columns:1fr}.chap aside{position:static;height:auto;padding:70px 0 0}.chap li{margin-bottom:60px}}
+.orte{background:var(--aub);color:var(--ivory);padding:clamp(70px,10vw,140px) 0 60px}
+.orte .strip-head{padding-inline:var(--pad)} .orte h2{font-size:clamp(2.2rem,4.6vw,4rem);font-style:italic}
+.fin{background:var(--aub-deep);color:var(--ivory);padding:clamp(80px,12vw,160px) var(--pad)}
+.fin .in{max-width:1100px;margin:auto;display:grid;grid-template-columns:1fr 1fr;gap:clamp(30px,6vw,90px)}
+.fin h2{font-size:clamp(2.4rem,5vw,4.4rem);font-style:italic}
+@media(max-width:820px){.fin .in{grid-template-columns:1fr}}
+</style></head><body>
+<header class="bar"><a class="brand" href="index.html">Wasserschloss Hülsede<small>Residenz</small></a><button class="burger" aria-expanded="false" aria-controls="nav">Menü</button><nav class="nav" id="nav"><a href="index.html">Schloss</a><a href="hochzeiten.html" aria-current="page">Hochzeiten</a><a href="firmenevents.html">Firmenevents</a><a href="#anfrage">Anfrage</a></nav></header>
+<main>
+<section class="open"><div><h1>Ja.</h1><p>Eure Hochzeit im Wasserschloss</p><p class="sub">Romantik, die sich nicht erklären muss: Licht auf dem Wasser, alte Mauern und ein Tag, der ganz euch gehört.</p><a class="btn dark" href="#anfrage">Termin anfragen</a></div></section>
+
+<section class="chap" aria-label="Euer Tag"><aside><h2>Ein Tag in vier Szenen.</h2><p>So könnte euer Tag erzählt werden. Ablauf und Möglichkeiten stimmen wir persönlich mit euch ab. <span class="ph">[Ablauf und Räume vom Schloss bestätigen]</span></p></aside>
+<ol>
+<li><div class="art" style="--a1:#5b2a66;--a2:#b88fbd;--a3:#f1e3c8" role="img" aria-label="Platzhalter"><span class="tag">Demo-Motiv</span></div><h3>Ankommen</h3><p>Der erste Blick auf das Schloss, ein Glas in der Hand, Zeit zum Durchatmen.</p></li>
+<li><div class="art" style="--a1:#2B1431;--a2:#6A3FA3;--a3:#D7C4A3;--sx:30%" role="img" aria-label="Platzhalter"><span class="tag">Demo-Motiv</span></div><h3>Das Ja-Wort</h3><p>Ein Moment, den ihr nicht planen müsst, nur erleben. Wir sorgen für den Rahmen.</p></li>
+<li id="abend"><div class="art" style="--a1:#3d1b4b;--a2:#9a63a8;--a3:#ecd9bb;--sy:55%" role="img" aria-label="Platzhalter"><span class="tag">Demo-Motiv</span></div><h3>Die Feier</h3><p>Tafel, Reden, Musik. Ein Fest, das lange nachklingt.</p></li>
+<li><div class="art" style="--a1:#120818;--a2:#2B1431;--a3:#8a6a86;--sx:75%;--sy:20%" role="img" aria-label="Platzhalter"><span class="tag">Demo-Motiv</span></div><h3>Die Nacht</h3><p>Wenn es still wird, spiegelt das Wasser die Lichter des Schlosses.</p></li>
+</ol></section>
+
+<section class="orte" data-strip><div class="strip-head"><h2>Orte für <em>euren</em> Tag</h2><div class="ctrl"><button data-dir="-1" aria-label="Zurück">←</button><button data-dir="1" aria-label="Weiter">→</button></div></div>
+<div class="strip" tabindex="0" aria-label="Orte, seitlich wischen">
+<a class="card wide" href="#anfrage"><div class="art" style="--a1:#4a1f55;--a2:#9a63a8;--a3:#e9d6b8"><span class="tag">Demo-Motiv</span></div><h3><em>Trauung</em></h3><p><span class="ph">[Ort der Trauung, z. B. Innenhof oder Saal: bestätigen]</span></p><span class="go">Dazu anfragen</span></a>
+<a class="card tall" href="#anfrage"><div class="art" style="--a1:#2B1431;--a2:#6A3FA3;--a3:#D7C4A3"><span class="tag">Demo-Motiv</span></div><h3><em>Festsaal</em></h3><p><span class="ph">[Raum, Kapazität: bestätigen]</span></p><span class="go">Dazu anfragen</span></a>
+<a class="card sq" href="#anfrage"><div class="art" style="--a1:#3d1b4b;--a2:#b88fbd;--a3:#f1e3c8"><span class="tag">Demo-Motiv</span></div><h3><em>Schlosspark</em></h3><p><span class="ph">[Außenbereiche: bestätigen]</span></p><span class="go">Dazu anfragen</span></a>
+<a class="card wide" href="#anfrage"><div class="art" style="--a1:#120818;--a2:#563076;--a3:#d7c4a3"><span class="tag">Demo-Motiv</span></div><h3><em>Am Wasser</em></h3><p><span class="ph">[Fotolocations: bestätigen]</span></p><span class="go">Dazu anfragen</span></a>
+</div><div class="progress"><i></i></div></section>
+
+<section class="fin" id="anfrage"><div class="in"><div><h2>Erzählt uns von eurem Tag.</h2><p style="margin-top:18px;opacity:.8;max-width:36ch">Datum, Gästezahl, Wünsche: ein paar Zeilen genügen. Wir melden uns persönlich.</p></div>
+<form data-mail="Hochzeitsanfrage Wasserschloss Hülsede"><label>Eure Namen<input name="Namen" required autocomplete="name"></label><div class="row2"><label>Wunschdatum<input name="Datum" type="date"></label><label>Gäste (ca.)<input name="Gaeste" type="number" min="1" inputmode="numeric"></label></div><label>E-Mail<input name="E-Mail" type="email" required autocomplete="email"></label><label>Eure Vorstellung<textarea name="Nachricht" rows="3"></textarea></label><button class="btn fill" type="submit" style="justify-self:start">Anfrage vorbereiten</button></form></div></section>
+</main>
+<footer><div class="grid"><div><h4>Wasserschloss Residenz Hülsede</h4><p><span class="ph">[Adresse]</span></p></div><div><h4>Entdecken</h4><a href="index.html">Schloss</a><a href="hochzeiten.html">Hochzeiten</a><a href="firmenevents.html">Firmenevents</a></div><div><h4>Rechtliches</h4><p><span class="ph">[Impressum · Datenschutz]</span></p></div></div><p class="note">Design-Prototyp. Demo-Motive gezeichnet, [Platzhalter] vom Schloss zu bestätigen. Keine Fakten verifiziert.</p></footer><script src="app.js"></script></body></html>

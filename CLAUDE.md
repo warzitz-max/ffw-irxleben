@@ -81,3 +81,7 @@ Die Anwendung erlaubt das Erfassen von Fahrzeugprüfungen offline, das Speichern
 ## Pflegehinweis
 
 Diese Datei wird bei jeder größeren Änderung am Projekt aktualisiert. Sie dokumentiert den aktuellen Stand, die wichtigsten Komponenten und die nächsten Entwicklungs-Schritte.
+
+## Wasserschloss Hülsede (separates Projekt im Ordner `wasserschloss-huelsede/`)
+
+Neuer Design-Prototyp (Startseite, Hochzeiten, Firmenevents) auf Basis des Drive-Briefings "Projektzentrale – Designbriefing V1.0". Unabhängig von der Prüf-PWA, nichts davon verändert. Demo-Motive sind gezeichnet, `[Platzhalter]` müssen vom Schloss bestätigt werden. Schrift: Cormorant Garamond + Manrope (Kandidat, nicht freigegeben).
